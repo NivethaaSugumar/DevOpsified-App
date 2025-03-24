@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devapp
+  labels:
+    app: devapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devapp
+  template:
+    metadata:
+      labels:
+        app: devapp
+    spec:
+      containers:
+      - name: devapp
+        image: nivethaas/devapp:N1
+        ports:
+        - containerPort: 8080

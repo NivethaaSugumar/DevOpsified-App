@@ -3,7 +3,7 @@ replicaCount: 1
 image: 
   repository: nivethaas/devapp 
   pullPolicy: IfNotPresent
-  tag: "14051024640"
+  tag: "14051524222"
 
 
 ingress:

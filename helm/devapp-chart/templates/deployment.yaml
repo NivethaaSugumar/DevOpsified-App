@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devapp
-        image: nivethaas/devapp:N1
+        image: nivethaas/devapp
         ports:
         - containerPort: 8080

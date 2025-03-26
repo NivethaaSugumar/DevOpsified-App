@@ -2,7 +2,7 @@ replicaCount: 1
 
 image: 
   repository: nivethaas/devapp 
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   tag: "14075399744"
 
 

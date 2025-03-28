@@ -3,7 +3,7 @@ replicaCount: 1
 image: 
   repository: nivethaas/devapp 
   pullPolicy: Always
-  tag: "14132327453"
+  tag: "14132451600"
 
 
 ingress:

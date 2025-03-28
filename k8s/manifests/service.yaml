@@ -13,4 +13,4 @@ spec:
       
   selector:
     app: devapp
-  type: LoadBalancer   
+  type: ClusterIP

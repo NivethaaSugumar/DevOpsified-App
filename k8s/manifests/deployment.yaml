@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devapp
-        image: nivethaas/devapp:{{ .Values.image.tag }}
+        image: nivethaas/devapp
         ports:
         - containerPort: 8080
